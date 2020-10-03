@@ -1,9 +1,3 @@
-/* Cores padrão */
-:root { 
-  --bg-primary-puple: #7159c1;
-  --color-white-text: #fff;
-}
-
 /* Header */
 header {
   background: var(--bg-primary-puple);

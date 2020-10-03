@@ -1,11 +1,3 @@
-/* Cores padrão */
-:root { 
-  --bg-primary-puple: #7159c1;
-  --color-white-text: #fff;
-  --foggy-light-purple: #ddd5f8;
-  --color-light-purple: #9A8EBF;
-}
-
 .tecnologia {
   background: var(--bg-primary-puple);
   padding: 60px 0px;
