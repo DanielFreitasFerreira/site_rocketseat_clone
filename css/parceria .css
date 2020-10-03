@@ -1,0 +1,48 @@
+.parceria {
+  padding: 60px 0px;
+}
+.parceria .content {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.parceria .content .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parceria .content .container h2 {
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--Misty-gray-text);
+  font-weight: 500;
+}
+.parceria .content .container p {
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--puple-primary-color);
+}
+.parceria .content .container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.parceria .content .container div button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(50% - 16px);
+  height: 80px;
+  line-height: 1;
+  padding: 0 40px;
+  background: var(--bg-primary-puple);
+  border: 0;
+  color: var(--pure-white-color);
+  border-radius: 5px;
+}
+.parceria .content .container div button span {
+  font-weight: bold;
+  font-size: 1.22em;
+}
