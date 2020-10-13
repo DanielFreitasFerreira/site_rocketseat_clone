@@ -1,75 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width" />
   <title>Rocketseat</title>
-
-  <!-- Link dos arquivos de estilos -->
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-  <!-- Cabeçalho do site -->
-  <header>
 
-    <div class="container">
-      <img src="images/logo-rocketseat.svg" alt="">
+  <header id="main-header">
 
-      <div class="menu-section">
-        <div class="menu-toggle">
-          <div class="one"></div>
-          <div class="two"></div>
-          <div class="three"></div>
+    <div class="content">
+
+      <menu id="menu">
+        <img src="images/logo-rocketseat.svg" alt="Logo da Rocketseat">
+        <div class="separator"></div>
+        <div class="icon_menu">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Início</a>
-            </li>
-            <li>
-              <a href="#">Starter</a>
-            </li>
-            <li>
-              <a href="#">Bootcamp</a>
-            </li>
-            <li>
-              <a href="#">Comunidade</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        <span>MENU</span>
+      </menu>
+
+      <nav>
+        <ul>
+          <li><img src="images/logo-rocketseat.svg" alt="Logo da Rocketseat"></li>
+          <div class="separator"></div>
+          <li>INÍCIO</li>
+          <li>STARTER</li>
+          <li>BOOTCAMP</li>
+          <li>COMUNIDADE</li>
+          <li>BLOG</li>
+        </ul>
+      </nav>
 
       <div class="side">
-        <a href="#">
-          <img src="images/facebook.svg" alt="Icone do facebook">
-        </a>
-
-        <a href="#">
-          <img src="images/instagram.svg" alt="Icone do instagram">
-        </a>
-
-        <a href="#">
-          <img src="images/twitter.svg" alt="Icone do twitter">
-        </a>
-
-        <a href="#">
-          <img src="images/youtube.svg" alt="Icone do youtube">
-        </a>
+        <a href="https://www.facebook.com/rocketseat" target="_blank"><img src="images/facebook.svg"
+            alt="Logo do Facebook"></a>
+        <a href="https://www.instagram.com/rocketseat_oficial/" target="_blank"><img src="images/instagram.svg"
+            alt="Logo do Instagram"></a>
+        <a href="https://twitter.com/rocketseat" target="_blank"><img src="images/twitter.svg"
+            alt="Logo do Twitter"></a>
+        <a href="https://www.youtube.com/rocketseat" target="_blank"><img src="images/youtube.svg"
+            alt="Logo do Youtube"></a>
+        <button>Login</button>
       </div>
-
-      <button>Login</button>
-
     </div>
 
   </header>
 
-  <!-- Sessão descrição -->
-  <section class="descricao">
+  <section id="descricao">
     <div class="content">
       <div class="container">
         <h2>
@@ -85,118 +70,76 @@
     </div>
   </section>
 
-  <!-- Sessão tecnologia -->
-  <section class="tecnologia">
+  <section id="tecnologia">
     <div class="content">
-      <img src="images/trofeu-home.svg" alt="Imagem troféu">
+      <img src="images/trofeu-home.svg" alt="Troféu com logo da Rocketseat">
       <div class="container">
         <h2>
           As mesmas tecnologias utilizadas por empresas como:
         </h2>
-
-        <h3>
-          Nubank, Netflix, Uber, Instagram e Airbnb
-        </h3>
-
-        <p>
-          Imagine você dominando as mesmas tecnologias adotadas pelos melhores times do mundo, construindo aplicações de
-          alta performance e se destacando entre os maiores programadores.
-        </p>
+        <h3>Nubank, Netflix, Uber, Instagram e Airbnb</h3>
+        <p>Imagine você dominando as mesmas tecnologias adotadas pelos melhores times do mundo, construindo aplicações
+          de
+          alta performance e se destacando entre os maiores programadores.</p>
       </div>
     </div>
   </section>
 
-  <!-- Sessão curso -->
-  <section class="curso">
+  <section id="cursos">
     <div class="content">
-
       <div class="container">
+
         <h2>
-
-          <div>
-            <img src="images/starter.svg" alt="Logo starter">
-          </div>
-
-          Stater
+          <img src="images/starter.svg" alt="Curso Starter">
+          Starter
         </h2>
 
-        <p>
-          Cursos 100% online para você dar o próximo passo na sua evolução como programador. E o melhor, de graça!
-        </p>
-
+        <p>Cursos 100% online para você dar o próximo passo na sua evolução como programador. E o melhor, de graça!</p>
         <button>Garantir meu acesso</button>
       </div>
 
       <div class="container">
         <h2>
-
-          <div>
-            <img src="images/bootcamp.svg" alt="Imagem bootcamp">
-          </div>
-
+          <img src="images/bootcamp.svg" alt="Curso Bootcamp">
           Bootcamp
         </h2>
 
-        <p>
-          Treinamentos imersivos para dominar as tecnologias mais modernas no menor tempo possível.
-        </p>
-
+        <p>Treinamentos imersivos para dominar as tecnologias mais modernas no menor tempo possível.</p>
         <button>Reservar minha vaga</button>
       </div>
     </div>
   </section>
 
-  <!-- Sessão Comunidade -->
-  <section class="comunidade">
+  <section id="comunidade">
     <div class="content">
       <div class="container">
         <h2>
           Acelere a sua evolução. Participe da nossa comunidade no Discord.
         </h2>
-
         <p>
           Potencialize o seu aprendizado, destaque-se entre os programadores e ganhe prêmios exclusivos.
         </p>
-
         <button>Acessar comunidade</button>
-
       </div>
-
-      <img src="images/comunidade-home.svg" alt="Imagem comunidade">
-
+      <img src="images/comunidade-home.svg" alt="Logo do Discord">
     </div>
   </section>
 
-  <!-- Sessão parceria -->
-  <section class="parceria">
+  <section id="parceria">
     <div class="content">
       <div class="container">
-        <h2>Parceria</h2>
-        <p>
-          Conheça nossos parceiros e encontre as melhores oportunidades
-        </p>
-
+        <h2>Parceiros</h2>
+        <p>Conheça nossos parceiros e encontre as melhores oportunidades</p>
         <div>
-
-          <button>
-            <img src="images/bossabox.png" alt="Imagem bossabox">
-            <span>Website ></span>
-          </button>
-          
-          <button>
-            <img src="images/impulso.png" alt="Imagem inpulso">
-            <span>Website ></span>
-          </button>
+          <button><img src="images/bossabox.png"> <span>Website ></span></button>
+          <button><img src="images/impulso.png"> <span>Website ></span></button>
         </div>
-
       </div>
-
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <section class="contato">
+    <section id="contato">
       <div class="content">
         <div class="container">
           <img class="img_lateral" src="images/techs-1.svg" alt="Logo do Electron, Graphql e JavaScript">
